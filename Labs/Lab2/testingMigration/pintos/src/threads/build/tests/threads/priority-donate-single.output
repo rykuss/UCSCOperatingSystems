@@ -1,0 +1,19 @@
+qemu-system-x86_64 -hda /tmp/0Sx7s5YxeQ.dsk -m 4 -net none -nographic -monitor null
+PiLo hda1
+Loading..........
+Kernel command line: -q run priority-donate-single
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  419,020,800 loops/s.
+Boot complete.
+Executing 'priority-donate-single':
+(priority-donate-single) begin
+(priority-donate-single) Thread A finished.
+(priority-donate-single) end
+Execution of 'priority-donate-single' complete.
+Timer: 43 ticks
+Thread: 0 idle ticks, 43 kernel ticks, 0 user ticks
+Console: 471 characters output
+Keyboard: 0 keys pressed
+Powering off...

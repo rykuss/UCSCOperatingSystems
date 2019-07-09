@@ -1,0 +1,5 @@
+# Percentage of the testing point total designated for each set of tests.
+
+40%	tests/userprog/Rubric.process
+20%	tests/userprog/Rubric.arguments
+40%	tests/userprog/Rubric.systemcalls

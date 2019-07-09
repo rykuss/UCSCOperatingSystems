@@ -1,0 +1,3 @@
+Advanced: Priority waiting for locks, semaphores, and condition variables:
+15	priority-sema
+15	priority-condvar

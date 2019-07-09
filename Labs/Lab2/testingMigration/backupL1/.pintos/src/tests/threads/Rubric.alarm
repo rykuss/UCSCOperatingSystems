@@ -1,0 +1,7 @@
+Functionality and robustness of alarm clock:
+5	alarm-single
+5	alarm-multiple
+5	alarm-simultaneous
+5	alarm-zero
+5	alarm-negative
+75	alarm-efficient

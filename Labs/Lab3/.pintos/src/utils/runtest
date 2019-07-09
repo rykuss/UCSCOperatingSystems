@@ -1,0 +1,11 @@
+if [ "$#" -lt 1 ]
+then
+  echo "Usage: $0 test-to-run"
+  exit 1
+fi
+t=$1
+
+pintos -v -k -T 10 --qemu  --filesys-size=2 -p build/tests/userprog/$t -a $t -- -q  -f run $t | tee build/tests/userprog/$t.output
+
+perl -I.. ../tests/userprog/$t.ck build/tests/userprog/$t build/tests/userprog/$t.result
+

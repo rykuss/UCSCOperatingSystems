@@ -1,0 +1,31 @@
+System Calls:
+
+- "create" system call.
+1	create-empty
+1	create-long
+1	create-normal
+1	create-exists
+
+- "open" system call.
+1	open-missing
+1	open-normal
+1	open-twice
+
+- "read" system call.
+1	read-normal
+1	read-zero
+
+- "write" system call.
+1	write-normal
+1	write-zero
+
+- "close" system call.
+1	close-normal
+
+- "exec" system call.
+1	exec-once
+1	exec-multiple
+
+- "wait" system call.
+1	wait-simple
+1	wait-twice

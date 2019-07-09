@@ -1,0 +1,8 @@
+Stretch: Single level priority donation, including multiple donations:
+3	priority-donate-single
+3	priority-donate-one
+3	priority-donate-lower
+3	priority-donate-multiple
+2	priority-donate-multiple2
+3	priority-donate-sema
+3	priority-donate-condvar

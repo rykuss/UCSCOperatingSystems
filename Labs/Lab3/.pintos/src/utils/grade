@@ -1,0 +1,10 @@
+rm build/grade 1>2 2>/dev/null
+while true
+do 
+   if [ -e build/grade ] 
+   then
+      exit
+   fi
+   make grade
+done
+
