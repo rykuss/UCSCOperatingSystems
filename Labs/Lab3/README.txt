@@ -1,6 +1,6 @@
 "CMPS111-Lab3.pdf"	:	Lab PDF, states our goals
 "lab3report.pdf"	:	Details my approach and process to solving this lab.
-"userprog"		:	contains select files from the PintosOS that I've either edited for the solution or that I have provided 				 for context/aid.
+"userprog"		:	contains select files from the PintosOS that I've either edited for the solution or that I have provided 	for context/aid.
 				CONTAINS MY SOLUTION CODE
 "RelatedFiles"		:	contains
 	"Helpful&ReferenceFiles"	:	contains
